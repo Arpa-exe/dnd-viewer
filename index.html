@@ -30,12 +30,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
-
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script src="js/app.js"></script>
-
+<body class="h-100 w-100">
+<nav class="navbar navbar-expand-lg flex-column mb-lg-4 grey-background pb-0">
+  <a class="navbar-brand mx-auto mb-3" href="#"><img src="img/logo.png"></a>
+  <div class="navbar-collapse justify-content-center w-50 mb-2">
+    <ul class="navbar-nav mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ali</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Rosalie</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">FX</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Javier</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<main>
+  <div class="container-fluid p-2" style="background-color: #cccccc">
+    <div class="container-fluid p-2 w-100" id="charac" style="background-color: white">
+      <div>
+        <h2>Guyhaum</h2>
+      </div>
+      <div class="m-0 w-100">
+        <div class="d-flex flex-row gap-5 align-items-center m-2 p-2" style="background-color: #fafafa">
+          <div class="d-flex flex-row gap-3 justify-content-start w-100">
+            <p class="text-nowrap m-0">HP</p>
+            <label style="width: 2rem">
+              <input class="border-0 w-100" placeholder="32">
+            </label>
+            <p class="m-0">/32</p>
+          </div>
+          <div class="d-flex flex-row gap-3 justify-content-start w-100">
+            <p class="text-nowrap m-0">Hit Dice</p>
+            <label style="width: 3rem">
+              <input class="border-0 w-100" placeholder="3d10">
+            </label>
+            <p class="m-0">/3d10</p>
+          </div>
+          <div class="d-flex flex-row gap-3 justify-content-start w-100">
+            <p class="text-nowrap m-0">Temp HP</p>
+            <label style="width: 2rem">
+              <input class="border-0 w-100" placeholder="0">
+            </label>
+          </div>
+          <div class="d-flex flex-row gap-3 justify-content-start w-100">
+            <p class="text-nowrap m-0">Lvl</p>
+            <p class="m-0">3</p>
+          </div>
+        </div>
+      </div>
+      <div class="p-2 m-2" style="background-color: #fafafa">
+        <h4>Stats</h4>
+        <div class="d-flex gap-4 justify-content-around">
+          <div class="d-flex flex-column align-items-center">
+            <p class="font-weight-bold m-0"><strong>STR</strong></p>
+            <p class="m-0">17</p>
+            <p class="m-0"><small>+3</small></p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <p class="font-weight-bold m-0"><strong>DEX</strong></p>
+            <p class="m-0">12</p>
+            <p class="m-0"><small>+1</small></p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <p class="font-weight-bold m-0"><strong>CON</strong></p>
+            <p class="m-0">14</p>
+            <p class="m-0"><small>+2</small></p>
+          </div>
+        </div>
+        <div class="d-flex gap-4 justify-content-around py-2">
+          <div class="d-flex flex-column align-items-center">
+            <p class="font-weight-bold m-0"><strong>INT</strong></p>
+            <p class="m-0">9</p>
+            <p class="m-0"><small>-1</small></p>
+          </div>
+          <div class="d-flex flex-column align-items-center">
+            <p class="font-weight-bold m-0"><strong>WIS</strong></p>
+            <p class="m-0">12</p>
+            <p class="m-0"><small>+1</small></p>
+          </div>
+          <div class="d-flex flex-column align-items-center py-2">
+            <p class="font-weight-bold m-0"><strong>CHA</strong></p>
+            <p class="m-0">12</p>
+            <p class="m-0"><small>+1</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="js/app.js"></script>
 </body>
 
 </html>
