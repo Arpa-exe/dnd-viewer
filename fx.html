@@ -248,6 +248,319 @@
           </div>
         </div>
       </div>
+      <div class="p-2 m-2" style="background-color: #fafafa">
+        <h4>Actions</h4>
+        <div class="collapse show p-lg-3" id="foldableDiv">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Attack</strong></p>
+              <div class="d-flex p-lg-2 gap-4 justify-content-between align-items-center">
+                <div class="d-flex gap-4 flex-column justify-content-center align-items-center">
+                  <p class="m-0 text-center"><strong>Quarterstaff</strong> (Versatile)</p>
+                  <p class="m-0 text-center"><strong>Dagger</strong> (Light/Thrown)</p>
+                </div>
+                <div class="d-flex gap-4 flex-column justify-content-center align-items-center">
+                  <p class="m-0">To Hit: <small>1d20+2</small></p>
+                  <p class="m-0">To Hit: <small>1d20+3</small></p>
+                </div>
+                <div class="d-flex gap-4 flex-column justify-content-center align-items-center">
+                  <p class="m-0 text-center">Damage: <small>1d6 or 1d8 (Bludgeoning)</small></p>
+                  <p class="m-0">Damage: <small>1d4+1 (Slashing)</small></p>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Cast a Spell</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">You may use your action to cast a spell you know.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Dash</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Hide</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">Hiding requires a Stealth (Dex) skill check. If you are successfully hidden, attacks against you have disadvantage and your attacks have advantage against foes who have not spotted you.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Help</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">The Help action provides advantage to an allie's next skill check or attack roll.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Dodge</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">Taking the dodge action gives foes disadvantage on attack rolls against you until the start of your next turn.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="btn" data-bs-toggle="collapse" href="#foldableDiv" role="button" id="toggleButton">
+          Show less
+        </a>
+      </div>
+      <div class="p-2 m-2" style="background-color: #fafafa">
+        <h4>Bonus Actions</h4>
+        <div class="collapse show p-lg-3" id="foldableDivBonus">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Form of Dread</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-1 gap-md-5">
+                  <p class="m-0">You manifest an aspect of your patron’s dreadful power. As a bonus action, you transform for 1 minute. You gain the following benefits while transformed:</p>
+                    <ul>
+                      <li>You gain temporary hit points equal to 1d10 + your warlock level.</li>
+                      <li>Once during each of your turns, when you hit a creature with an attack, you can force it to make a Wisdom saving throw, and if the saving throw fails, the target is frightened of you until the end of your next turn.</li>
+                      <li>You are immune to the frightened condition.</li>
+                    </ul>
+                    <p>You can transform a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+                    The appearance of your Form of Dread reflects some aspect of your patron.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="btn" data-bs-toggle="collapse" href="#foldableDivBonus" role="button" id="toggleButtonBonus">
+          Show less
+        </a>
+      </div>
+      <div class="p-2 m-2" style="background-color: #fafafa">
+        <h4>Free Actions/Class Features</h4>
+        <div class="collapse show p-lg-3" id="foldableDivFree">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Pact Boon : Pact of the Talisman</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">Your patron gives you an amulet, a talisman that can aid the wearer when the need is great. When the wearer fails an ability check, they can add a d4 to the roll, potentially turning the roll into a success. This benefit can be used a number of times equal to your proficiency bonus, and all expended uses are restored when you finish a long rest.
+                    <br>If you lose the talisman, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous amulet. The talisman turns to ash when you die.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Eldritch Invocation : Rebuke of the Talisman</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">When the wearer of your talisman is hit by an attacker you can see within 30 feet of you, you can use your reaction to deal psychic damage to the attacker equal to your proficiency bonus and push it up to 10 feet away from the talisman's wearer.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class="m-0"><strong>Eldritch Invocation : Agonizing Blast</strong></p>
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item d-flex flex-wrap gap-lg-5 gap-md-5">
+                  <p class="m-0">When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="btn" data-bs-toggle="collapse" href="#foldableDivFree" role="button" id="toggleButtonFree">
+          Show less
+        </a>
+      </div>
+      <div class="d-flex flex-wrap gap-3 align-items-center justify-content-between m-2 p-2" style="background-color: #fafafa">
+        <h4>Spells Stats</h4>
+        <div class="d-flex flex-row gap-3 justify-content-start">
+          <p class="text-nowrap m-0">Spell Slots</p>
+          <label style="width: 2rem">
+            <input class="border-0 w-100" placeholder="2">
+          </label>
+          <p class="m-0">/2</p>
+        </div>
+        <div class="d-flex flex-row gap-3 justify-content-start">
+          <p class="text-nowrap m-0">Spell Save DC</p>
+          <p class="m-0">15</p>
+        </div>
+        <div class="d-flex flex-row gap-3 justify-content-start">
+          <p class="text-nowrap m-0">Spell Slot Level</p>
+          <p class="m-0">2</p>
+        </div>
+      </div>
+      <div class="p-2 m-2" style="background-color: #fafafa">
+        <h4>Cantrips</h4>
+        <div class="collapse show p-lg-3" id="foldableDivCantrips">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#eldritch-blast" role="button"><strong>Eldritch Blast</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="eldritch-blast">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> 120 feet</p>
+                  <p class="m-0">A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#friends" role="button"><strong>Friends</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="friends">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> Self</p>
+                  <p class="m-0"><strong>Duration:</strong> Concentration, up to 1 minute</p>
+                  <p class="m-0">For the duration, you have advantage on all Charisma checks directed at one creature of your choice that isn't hostile toward you. When the spell ends, the creature realizes that you used magic to influence its mood and becomes hostile toward you. A creature prone to violence might attack you. Another creature might seek retribution in other ways (at the DM's discretion), depending on the nature of your interaction with it.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="btn" data-bs-toggle="collapse" href="#foldableDivCantrips" role="button" id="toggleButtonCantrips">
+          Show less
+        </a>
+      </div>
+      <div class="p-2 m-2" style="background-color: #fafafa">
+        <h4>Spells Known</h4>
+        <div class="collapse show p-lg-3" id="foldableDivSpells">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#bane" role="button"><strong>Bane</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="bane">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> 30 feet</p>
+                  <p class="m-0"><strong>Duration:</strong> Concentration, up to 1 minute</p>
+                  <p class="m-0">Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.
+                    <br>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#false-life" role="button"><strong>False Life</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="false-life">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> Self</p>
+                  <p class="m-0"><strong>Duration:</strong>1 hour</p>
+                  <p class="m-0">Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.
+                    <br>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#blind-deaf" role="button"><strong>Blindness/Deafness</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="blind-deaf">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> 30 feet</p>
+                  <p class="m-0"><strong>Duration:</strong>1 minute</p>
+                  <p class="m-0">You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.
+                    <br>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#phantasmal" role="button"><strong>Phantasmal Force</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="phantasmal">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> 60 feet</p>
+                  <p class="m-0"><strong>Duration:</strong>Concentration, up to 1 minute</p>
+                  <p class="m-0">You craft an illusion that takes root in the mind of a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This spell has no effect on undead or constructs.
+                    <br>The phantasm includes sound, temperature, and other stimuli, also evident only to the creature.
+                    <br>The target can use its action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends.
+                    <br>While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall; it was pushed, it slipped, or a strong wind might have knocked it off.
+                    <br>An affected target is so convinced of the phantasm’s reality that it can even take damage from the illusion. A phantasm created to appear as a creature can attack the target. Similarly, a phantasm created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the phantasm can deal 1d6 psychic damage to the target if it is in the phantasm’s area or within 5 feet of the phantasm, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#phantom-steed" role="button"><strong>Phantom Steed</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="phantom-steed">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 minute</p>
+                  <p class="m-0"><strong>Range:</strong> 30 feet</p>
+                  <p class="m-0"><strong>Duration:</strong> 1 hour</p>
+                  <p class="m-0">A Large quasi-real, horselike creature appears on the ground in an unoccupied space of your choice within range. You decide the creature’s appearance, but it is equipped with a saddle, bit, and bridle. Any of the equipment created by the spell vanishes in a puff of smoke if it is carried more than 10 feet away from the steed.
+                    <br>For the duration, you or a creature you choose can ride the steed. The creature uses the statistics for a riding horse, except it has a speed of 100 feet and can travel 10 miles in an hour, or 13 miles at a fast pace. When the spell ends, the steed gradually fades, giving the rider 1 minute to dismount. The spell ends if you use an action to dismiss it or if the steed takes any damage.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#speak-dead" role="button"><strong>Speak With Dead</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="speak-dead">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> 10 feet</p>
+                  <p class="m-0"><strong>Duration:</strong> 10 minutes</p>
+                  <p class="m-0">You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this spell within the last 10 days.
+                    <br>Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#armor-agathys" role="button"><strong>Armor of Agathys</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="armor-agathys">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> Self</p>
+                  <p class="m-0"><strong>Duration:</strong> 1 hour</p>
+                  <p class="m-0">A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.
+                    <br>At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, both the temporary hit points and the cold damage increase by 5 for each slot.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#hex" role="button"><strong>Hex</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="hex">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 bonus action</p>
+                  <p class="m-0"><strong>Range:</strong> 90 feet</p>
+                  <p class="m-0"><strong>Duration:</strong> Concentration, up to 1 hour</p>
+                  <p class="m-0">You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.
+                    <br>If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.
+                    <br>A Remove Curse cast on the target ends this spell early.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#invisibility" role="button"><strong>Invisibility</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="invisibility">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> Touch</p>
+                  <p class="m-0"><strong>Duration:</strong> Concentration, up to 1 hour</p>
+                  <p class="m-0">A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person. The spell ends for a target that attacks or casts a spell.
+                    <br>At Higher Levels. When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item my-2">
+              <p class=" btn p-0 m-0" data-bs-toggle="collapse" data-bs-target="#mirror-image" role="button"><strong>Mirror Image</strong></p>
+              <ul class="navbar-nav collapse justify-content-center" id="mirror-image">
+                <li class="nav-item d-flex flex-column flex-wrap gap-lg-1 gap-md-1">
+                  <p class="m-0"><strong>Casting Time:</strong> 1 action</p>
+                  <p class="m-0"><strong>Range:</strong> Self</p>
+                  <p class="m-0"><strong>Duration:</strong> 1 minute</p>
+                  <p class="m-0">Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can use your action to dismiss the illusory duplicates.
+                    <br>Each time a creature targets you with an attack during the spell’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates.
+                    <br>If you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher.
+                    <br>A duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed.
+                    <br>A creature is unaffected by this spell if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <a class="btn" data-bs-toggle="collapse" href="#foldableDivSpells" role="button" id="toggleButtonSpells">
+          Show less
+        </a>
+      </div>
     </div>
   </div>
 </main>
